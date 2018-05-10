@@ -13,3 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+
+/**  https://davealger.com  **/
+
+// pure javascript - no jQuery was harmed in the creation of this function

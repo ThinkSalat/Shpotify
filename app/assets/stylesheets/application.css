@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+ .header {
+   display: flex;
+   flex-direction: column;
+   font-family: 'Annie Use Your Telescope';
+ }
+}
+
+a, label {
+  font-family: 'Helvetica';
+
+}
+.form {
+  color: blueviolet;
+  font-size: 20px;
+}
+label {
+  font-size: 25px;
+}
+div a {
+  font-family: 'Annie Use Your Telescope';
+  display: inline-block;
+  text-decoration: none;
+  background-size: auto;
+  background-color: cornsilk;
+  border-radius: 3px;
+  font-size: 30px;
+  font-style: bold;
+  margin: 5px;
+  color: blueviolet;
+  padding: .2em;
+}
+
+form {
+  font-family: 'Annie Use Your Telescope';
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: left; */
+}
+
+h1  {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 60px;
+}
+h2  {
+  font-size: 50px;
+}
+
+body {
+  /* background-color: honeydew; */
+  color: cornsilk;
+
+  background-image: url("gram.png");
+  /* background-repeat: repeat-y; */
+
+}
+.error {
+  font-size: 25px;
+  color: red;
+}
