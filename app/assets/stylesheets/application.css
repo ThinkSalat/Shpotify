@@ -65,9 +65,10 @@ h2  {
 body {
   /* background-color: honeydew; */
   color: cornsilk;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("gram.png");
-  /* background-repeat: repeat-y; */
 
 }
 .error {

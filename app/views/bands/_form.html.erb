@@ -4,7 +4,7 @@
 <% end %>
 
 <% if action == :edit %>
-  <% action_url = band_url(@band)  %>
+  <% action_url = band_url(band)  %>
   <% submit_text = 'Edit!' %>
 <% end %>
 
@@ -15,7 +15,7 @@
   <%= auth_token %>
 
   <label for="name">Band Name:</label>
-  <input class='form' id='name' type="text" name="band[name]">
+  <input class='form' id='name' type="text" name="band[name]" value =' <%= band.name %> '>
   <input class = 'form' type="submit" value="<%= submit_text %>">
 
 </form>

@@ -15,12 +15,19 @@
       <div>
         <%= link_to 'Profile page', user_url(current_user) %>
         <%= link_to 'Home', bands_url %>
+        <%= link_to 'Albums', albums_url %>
+        <%= link_to 'Tracks', tracks_url %>
+
       </div>
       <%= button_to 'Sign out', session_url, method: :delete, class: :logout%>
     <% else %>
-      <div>  <%= link_to 'Sign in', new_session_url, class: :signin %> </div>
-      <br>
-      <div>  <%= link_to 'Sign up!', new_user_url, class: :signin %>  </div>
+      <div>
+        <%= link_to 'Sign in', new_session_url, class: :signin %>
+        <%= link_to 'Sign up!', new_user_url, class: :signin %>
+        <br>
+        <%= link_to 'Home', bands_url %>
+        <%= link_to 'Albums', albums_url %>
+      </div>
     <% end %>
   </header>
   <body>
